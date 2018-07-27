@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D88A299B2109733500923556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A299A2109733500923556 /* main.m */; };
+		D88A29A42109733500923556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88A29A22109733500923556 /* Main.storyboard */; };
+		D88A29A62109733500923556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88A29A52109733500923556 /* Assets.xcassets */; };
+		D88A29A92109733500923556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88A29A72109733500923556 /* LaunchScreen.storyboard */; };
+		D88A2A14210974BA00923556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29C5210974BA00923556 /* AppDelegate.m */; };
+		D88A2A15210974BA00923556 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29CA210974BA00923556 /* UIView_extra.m */; };
+		D88A2A16210974BA00923556 /* DKNightVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29CD210974BA00923556 /* DKNightVersionManager.m */; };
+		D88A2A17210974BA00923556 /* NSObject+Night.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29CF210974BA00923556 /* NSObject+Night.m */; };
+		D88A2A18210974BA00923556 /* UINavigationBar+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29D2210974BA00923556 /* UINavigationBar+Animation.m */; };
+		D88A2A19210974BA00923556 /* leftbackiamge.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A29D4210974BA00923556 /* leftbackiamge.png */; };
+		D88A2A1A210974BA00923556 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A29D5210974BA00923556 /* menu@2x.png */; };
+		D88A2A1B210974BA00923556 /* RLLeftSlideManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29D8210974BA00923556 /* RLLeftSlideManager.m */; };
+		D88A2A1C210974BA00923556 /* RLLeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29DA210974BA00923556 /* RLLeftSlideViewController.m */; };
+		D88A2A1D210974BA00923556 /* RLLeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29DC210974BA00923556 /* RLLeftSortsViewController.m */; };
+		D88A2A1E210974BA00923556 /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29DE210974BA00923556 /* RLViewController.m */; };
+		D88A2A1F210974BA00923556 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29E1210974BA00923556 /* MainViewController.m */; };
+		D88A2A20210974BA00923556 /* UIBarButtonItem+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29E5210974BA00923556 /* UIBarButtonItem+TintColor.m */; };
+		D88A2A21210974BA00923556 /* UIButton+TitleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29E8210974BA00923556 /* UIButton+TitleColor.m */; };
+		D88A2A22210974BA00923556 /* UILabel+TextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29EB210974BA00923556 /* UILabel+TextColor.m */; };
+		D88A2A23210974BA00923556 /* UINavigationBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29EE210974BA00923556 /* UINavigationBar+BarTintColor.m */; };
+		D88A2A24210974BA00923556 /* UINavigationBar+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29F0210974BA00923556 /* UINavigationBar+TintColor.m */; };
+		D88A2A25210974BA00923556 /* UITabBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29F3210974BA00923556 /* UITabBar+BarTintColor.m */; };
+		D88A2A26210974BA00923556 /* UITableView+SeparatorColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29F6210974BA00923556 /* UITableView+SeparatorColor.m */; };
+		D88A2A27210974BA00923556 /* UIView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29F9210974BA00923556 /* UIView+BackgroundColor.m */; };
+		D88A2A28210974BA00923556 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29FC210974BA00923556 /* FirstViewController.m */; };
+		D88A2A29210974BA00923556 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A29FE210974BA00923556 /* SecondViewController.m */; };
+		D88A2A2A210974BA00923556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A2A00210974BA00923556 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D88A29962109733500923556 /* LeftSlideDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftSlideDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88A299A2109733500923556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D88A29A32109733500923556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D88A29A52109733500923556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88A29A82109733500923556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D88A29AA2109733500923556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88A29C4210974BA00923556 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LeftSlideDemo/AppDelegate.h; sourceTree = "<group>"; };
+		D88A29C5210974BA00923556 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = LeftSlideDemo/AppDelegate.m; sourceTree = "<group>"; };
+		D88A29C7210974BA00923556 /* DKNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNightVersion.h; sourceTree = "<group>"; };
+		D88A29C8210974BA00923556 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		D88A29C9210974BA00923556 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		D88A29CA210974BA00923556 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		D88A29CC210974BA00923556 /* DKNightVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNightVersionManager.h; sourceTree = "<group>"; };
+		D88A29CD210974BA00923556 /* DKNightVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNightVersionManager.m; sourceTree = "<group>"; };
+		D88A29CE210974BA00923556 /* NSObject+Night.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Night.h"; sourceTree = "<group>"; };
+		D88A29CF210974BA00923556 /* NSObject+Night.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Night.m"; sourceTree = "<group>"; };
+		D88A29D1210974BA00923556 /* UINavigationBar+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Animation.h"; sourceTree = "<group>"; };
+		D88A29D2210974BA00923556 /* UINavigationBar+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Animation.m"; sourceTree = "<group>"; };
+		D88A29D4210974BA00923556 /* leftbackiamge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftbackiamge.png; sourceTree = "<group>"; };
+		D88A29D5210974BA00923556 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		D88A29D7210974BA00923556 /* RLLeftSlideManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLLeftSlideManager.h; sourceTree = "<group>"; };
+		D88A29D8210974BA00923556 /* RLLeftSlideManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLLeftSlideManager.m; sourceTree = "<group>"; };
+		D88A29D9210974BA00923556 /* RLLeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLLeftSlideViewController.h; sourceTree = "<group>"; };
+		D88A29DA210974BA00923556 /* RLLeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLLeftSlideViewController.m; sourceTree = "<group>"; };
+		D88A29DB210974BA00923556 /* RLLeftSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLLeftSortsViewController.h; sourceTree = "<group>"; };
+		D88A29DC210974BA00923556 /* RLLeftSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLLeftSortsViewController.m; sourceTree = "<group>"; };
+		D88A29DD210974BA00923556 /* RLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewController.h; sourceTree = "<group>"; };
+		D88A29DE210974BA00923556 /* RLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewController.m; sourceTree = "<group>"; };
+		D88A29E0210974BA00923556 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D88A29E1210974BA00923556 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D88A29E4210974BA00923556 /* UIBarButtonItem+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TintColor.h"; sourceTree = "<group>"; };
+		D88A29E5210974BA00923556 /* UIBarButtonItem+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TintColor.m"; sourceTree = "<group>"; };
+		D88A29E7210974BA00923556 /* UIButton+TitleColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TitleColor.h"; sourceTree = "<group>"; };
+		D88A29E8210974BA00923556 /* UIButton+TitleColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TitleColor.m"; sourceTree = "<group>"; };
+		D88A29EA210974BA00923556 /* UILabel+TextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TextColor.h"; sourceTree = "<group>"; };
+		D88A29EB210974BA00923556 /* UILabel+TextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TextColor.m"; sourceTree = "<group>"; };
+		D88A29ED210974BA00923556 /* UINavigationBar+BarTintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BarTintColor.h"; sourceTree = "<group>"; };
+		D88A29EE210974BA00923556 /* UINavigationBar+BarTintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BarTintColor.m"; sourceTree = "<group>"; };
+		D88A29EF210974BA00923556 /* UINavigationBar+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TintColor.h"; sourceTree = "<group>"; };
+		D88A29F0210974BA00923556 /* UINavigationBar+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TintColor.m"; sourceTree = "<group>"; };
+		D88A29F2210974BA00923556 /* UITabBar+BarTintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+BarTintColor.h"; sourceTree = "<group>"; };
+		D88A29F3210974BA00923556 /* UITabBar+BarTintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+BarTintColor.m"; sourceTree = "<group>"; };
+		D88A29F5210974BA00923556 /* UITableView+SeparatorColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SeparatorColor.h"; sourceTree = "<group>"; };
+		D88A29F6210974BA00923556 /* UITableView+SeparatorColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SeparatorColor.m"; sourceTree = "<group>"; };
+		D88A29F8210974BA00923556 /* UIView+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundColor.h"; sourceTree = "<group>"; };
+		D88A29F9210974BA00923556 /* UIView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundColor.m"; sourceTree = "<group>"; };
+		D88A29FB210974BA00923556 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D88A29FC210974BA00923556 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D88A29FD210974BA00923556 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D88A29FE210974BA00923556 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D88A29FF210974BA00923556 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = LeftSlideDemo/ViewController.h; sourceTree = "<group>"; };
+		D88A2A00210974BA00923556 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = LeftSlideDemo/ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88A29932109733500923556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D88A298D2109733500923556 = {
+			isa = PBXGroup;
+			children = (
+				D88A29C4210974BA00923556 /* AppDelegate.h */,
+				D88A29C5210974BA00923556 /* AppDelegate.m */,
+				D88A29C6210974BA00923556 /* Common */,
+				D88A29CB210974BA00923556 /* Core */,
+				D88A29D0210974BA00923556 /* Helper */,
+				D88A29D3210974BA00923556 /* Image */,
+				D88A29D6210974BA00923556 /* LeftSlideVC */,
+				D88A29DF210974BA00923556 /* TabberC */,
+				D88A29E2210974BA00923556 /* UIKit */,
+				D88A29FA210974BA00923556 /* VC */,
+				D88A29FF210974BA00923556 /* ViewController.h */,
+				D88A2A00210974BA00923556 /* ViewController.m */,
+				D88A29982109733500923556 /* LeftSlideDemo */,
+				D88A29972109733500923556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88A29972109733500923556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29962109733500923556 /* LeftSlideDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88A29982109733500923556 /* LeftSlideDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29A22109733500923556 /* Main.storyboard */,
+				D88A29A52109733500923556 /* Assets.xcassets */,
+				D88A29A72109733500923556 /* LaunchScreen.storyboard */,
+				D88A29AA2109733500923556 /* Info.plist */,
+				D88A29992109733500923556 /* Supporting Files */,
+			);
+			path = LeftSlideDemo;
+			sourceTree = "<group>";
+		};
+		D88A29992109733500923556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88A299A2109733500923556 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D88A29C6210974BA00923556 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29C7210974BA00923556 /* DKNightVersion.h */,
+				D88A29C8210974BA00923556 /* Macro.h */,
+				D88A29C9210974BA00923556 /* UIView_extra.h */,
+				D88A29CA210974BA00923556 /* UIView_extra.m */,
+			);
+			name = Common;
+			path = LeftSlideDemo/Common;
+			sourceTree = "<group>";
+		};
+		D88A29CB210974BA00923556 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29CC210974BA00923556 /* DKNightVersionManager.h */,
+				D88A29CD210974BA00923556 /* DKNightVersionManager.m */,
+				D88A29CE210974BA00923556 /* NSObject+Night.h */,
+				D88A29CF210974BA00923556 /* NSObject+Night.m */,
+			);
+			name = Core;
+			path = LeftSlideDemo/Core;
+			sourceTree = "<group>";
+		};
+		D88A29D0210974BA00923556 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29D1210974BA00923556 /* UINavigationBar+Animation.h */,
+				D88A29D2210974BA00923556 /* UINavigationBar+Animation.m */,
+			);
+			name = Helper;
+			path = LeftSlideDemo/Helper;
+			sourceTree = "<group>";
+		};
+		D88A29D3210974BA00923556 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29D4210974BA00923556 /* leftbackiamge.png */,
+				D88A29D5210974BA00923556 /* menu@2x.png */,
+			);
+			name = Image;
+			path = LeftSlideDemo/Image;
+			sourceTree = "<group>";
+		};
+		D88A29D6210974BA00923556 /* LeftSlideVC */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29D7210974BA00923556 /* RLLeftSlideManager.h */,
+				D88A29D8210974BA00923556 /* RLLeftSlideManager.m */,
+				D88A29D9210974BA00923556 /* RLLeftSlideViewController.h */,
+				D88A29DA210974BA00923556 /* RLLeftSlideViewController.m */,
+				D88A29DB210974BA00923556 /* RLLeftSortsViewController.h */,
+				D88A29DC210974BA00923556 /* RLLeftSortsViewController.m */,
+				D88A29DD210974BA00923556 /* RLViewController.h */,
+				D88A29DE210974BA00923556 /* RLViewController.m */,
+			);
+			name = LeftSlideVC;
+			path = LeftSlideDemo/LeftSlideVC;
+			sourceTree = "<group>";
+		};
+		D88A29DF210974BA00923556 /* TabberC */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29E0210974BA00923556 /* MainViewController.h */,
+				D88A29E1210974BA00923556 /* MainViewController.m */,
+			);
+			name = TabberC;
+			path = LeftSlideDemo/TabberC;
+			sourceTree = "<group>";
+		};
+		D88A29E2210974BA00923556 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29E3210974BA00923556 /* UIBarButtonItem */,
+				D88A29E6210974BA00923556 /* UIButton */,
+				D88A29E9210974BA00923556 /* UILabel */,
+				D88A29EC210974BA00923556 /* UINavigationBar */,
+				D88A29F1210974BA00923556 /* UITabBar */,
+				D88A29F4210974BA00923556 /* UITableView */,
+				D88A29F7210974BA00923556 /* UIView */,
+			);
+			name = UIKit;
+			path = LeftSlideDemo/UIKit;
+			sourceTree = "<group>";
+		};
+		D88A29E3210974BA00923556 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29E4210974BA00923556 /* UIBarButtonItem+TintColor.h */,
+				D88A29E5210974BA00923556 /* UIBarButtonItem+TintColor.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		D88A29E6210974BA00923556 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29E7210974BA00923556 /* UIButton+TitleColor.h */,
+				D88A29E8210974BA00923556 /* UIButton+TitleColor.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		D88A29E9210974BA00923556 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29EA210974BA00923556 /* UILabel+TextColor.h */,
+				D88A29EB210974BA00923556 /* UILabel+TextColor.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		D88A29EC210974BA00923556 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29ED210974BA00923556 /* UINavigationBar+BarTintColor.h */,
+				D88A29EE210974BA00923556 /* UINavigationBar+BarTintColor.m */,
+				D88A29EF210974BA00923556 /* UINavigationBar+TintColor.h */,
+				D88A29F0210974BA00923556 /* UINavigationBar+TintColor.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		D88A29F1210974BA00923556 /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29F2210974BA00923556 /* UITabBar+BarTintColor.h */,
+				D88A29F3210974BA00923556 /* UITabBar+BarTintColor.m */,
+			);
+			path = UITabBar;
+			sourceTree = "<group>";
+		};
+		D88A29F4210974BA00923556 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29F5210974BA00923556 /* UITableView+SeparatorColor.h */,
+				D88A29F6210974BA00923556 /* UITableView+SeparatorColor.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		D88A29F7210974BA00923556 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29F8210974BA00923556 /* UIView+BackgroundColor.h */,
+				D88A29F9210974BA00923556 /* UIView+BackgroundColor.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		D88A29FA210974BA00923556 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D88A29FB210974BA00923556 /* FirstViewController.h */,
+				D88A29FC210974BA00923556 /* FirstViewController.m */,
+				D88A29FD210974BA00923556 /* SecondViewController.h */,
+				D88A29FE210974BA00923556 /* SecondViewController.m */,
+			);
+			name = VC;
+			path = LeftSlideDemo/VC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88A29952109733500923556 /* LeftSlideDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88A29AD2109733500923556 /* Build configuration list for PBXNativeTarget "LeftSlideDemo" */;
+			buildPhases = (
+				D88A29922109733500923556 /* Sources */,
+				D88A29932109733500923556 /* Frameworks */,
+				D88A29942109733500923556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeftSlideDemo;
+			productName = LeftSlideDemo;
+			productReference = D88A29962109733500923556 /* LeftSlideDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88A298E2109733500923556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "八维集团";
+				TargetAttributes = {
+					D88A29952109733500923556 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D88A29912109733500923556 /* Build configuration list for PBXProject "LeftSlideDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88A298D2109733500923556;
+			productRefGroup = D88A29972109733500923556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88A29952109733500923556 /* LeftSlideDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88A29942109733500923556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88A29A92109733500923556 /* LaunchScreen.storyboard in Resources */,
+				D88A29A62109733500923556 /* Assets.xcassets in Resources */,
+				D88A2A1A210974BA00923556 /* menu@2x.png in Resources */,
+				D88A2A19210974BA00923556 /* leftbackiamge.png in Resources */,
+				D88A29A42109733500923556 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88A29922109733500923556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88A2A1F210974BA00923556 /* MainViewController.m in Sources */,
+				D88A2A23210974BA00923556 /* UINavigationBar+BarTintColor.m in Sources */,
+				D88A2A24210974BA00923556 /* UINavigationBar+TintColor.m in Sources */,
+				D88A2A29210974BA00923556 /* SecondViewController.m in Sources */,
+				D88A2A25210974BA00923556 /* UITabBar+BarTintColor.m in Sources */,
+				D88A2A22210974BA00923556 /* UILabel+TextColor.m in Sources */,
+				D88A2A1E210974BA00923556 /* RLViewController.m in Sources */,
+				D88A2A16210974BA00923556 /* DKNightVersionManager.m in Sources */,
+				D88A2A28210974BA00923556 /* FirstViewController.m in Sources */,
+				D88A2A17210974BA00923556 /* NSObject+Night.m in Sources */,
+				D88A2A15210974BA00923556 /* UIView_extra.m in Sources */,
+				D88A2A20210974BA00923556 /* UIBarButtonItem+TintColor.m in Sources */,
+				D88A2A1B210974BA00923556 /* RLLeftSlideManager.m in Sources */,
+				D88A2A1D210974BA00923556 /* RLLeftSortsViewController.m in Sources */,
+				D88A2A14210974BA00923556 /* AppDelegate.m in Sources */,
+				D88A2A26210974BA00923556 /* UITableView+SeparatorColor.m in Sources */,
+				D88A2A2A210974BA00923556 /* ViewController.m in Sources */,
+				D88A2A18210974BA00923556 /* UINavigationBar+Animation.m in Sources */,
+				D88A299B2109733500923556 /* main.m in Sources */,
+				D88A2A1C210974BA00923556 /* RLLeftSlideViewController.m in Sources */,
+				D88A2A21210974BA00923556 /* UIButton+TitleColor.m in Sources */,
+				D88A2A27210974BA00923556 /* UIView+BackgroundColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D88A29A22109733500923556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88A29A32109733500923556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D88A29A72109733500923556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88A29A82109733500923556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D88A29AB2109733500923556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D88A29AC2109733500923556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88A29AE2109733500923556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftSlideDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bawei.www.LeftSlideDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D88A29AF2109733500923556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftSlideDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bawei.www.LeftSlideDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88A29912109733500923556 /* Build configuration list for PBXProject "LeftSlideDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88A29AB2109733500923556 /* Debug */,
+				D88A29AC2109733500923556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88A29AD2109733500923556 /* Build configuration list for PBXNativeTarget "LeftSlideDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88A29AE2109733500923556 /* Debug */,
+				D88A29AF2109733500923556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D88A298E2109733500923556 /* Project object */;
+}
